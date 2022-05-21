@@ -44,7 +44,7 @@ let과 const도 호이스팅 된다.
 
 **Temporal Dead Zone**
 
-![](https://github.com/anotheranotherhoon/TIL/JavaScript/img/tdz.png?raw=true)
+![](https://github.com/anotheranotherhoon/TIL/blob/master/JavaScript/img/tdz.png?raw=true)
 TDZ에 있는 녀석들은 사용할 수 없다.
 let과 const는 TDZ의 영향을 받는다. 따라서 할당을 하기 전에는 사용을 할 수 없다. 이는 코드를 예측 가능하게 하고 잠재적인 버그를 줄일 수 있다. 
 

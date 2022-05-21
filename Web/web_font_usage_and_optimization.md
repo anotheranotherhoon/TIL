@@ -10,7 +10,7 @@
 웹폰트를 다운받고 적용하여 텍스트를 렌더링하는 과정이 동기적으로 발생하여. 텍스트들 간에 렌더링 시점이 차이가 나게 된다. 이로 인해 실시간으로 렌더링 되는 문장을 보는 사용자 입장에서 오해 할 수 있는 일으내용으로 문장을 바꿔 렌더링 되는 문제가 발생할 수 있다.
 
 ## 문제점의 원인
-![](https://github.com/anotheranotherhoon/TIL/Web/img/rendering.png?raw=true)
+![](https://github.com/anotheranotherhoon/TIL/blob/master/Web/img/rendering.png?raw=true)
 
 CSSOM(CSS Object Model)을 생성하는 과정이다. 
 이 과정에서 외부 웹 폰트 링크로 정의된 부분을 만나고 해당 폰트 파일을 다운로드한다.
@@ -42,7 +42,7 @@ WOFF2 형식은 Internet Explorer를 제외한 모든 브라우저에서 사용�
 
 unicode-range 속성은 유니코드로 지정한 글자에만 웹 폰트를 적용하는 속성이다. 다음과 같이 CSS의 @font-face 규칙에 unicode-range 속성을 선언해 사용한다.
 <br>
-![](https://github.com/anotheranotherhoon/TIL/Web/img/unicode_range.png?raw=true)
+![](https://github.com/anotheranotherhoon/TIL/blob/master/Web/img/unicode_range.png?raw=true)
 예에서 U+BC14는 글자 '바'에 해당하는 유니코드고, U+CC28는 글자 '차'에 해당하는 유니코드다. 
 전체 텍스트에서 unicode-range 속성에 유니코드로 등록된 글자인 '바'와 '차'에만 웹 폰트가 적용되었다.
 
@@ -72,7 +72,7 @@ FOIT 방식은 빈 텍스트가 노출되는 문제가 있기 때문에 UX 관�
 
 의도적으로 FOUT 방식으로 작동하게 하는 방법을 살펴보겠다.
 ## Font Face Observer 라이브러리
-![](https://github.com/anotheranotherhoon/TIL/Web/img/font_face_observer.png?raw=true)
+![](https://github.com/anotheranotherhoon/TIL/blob/master/Web/img/font_face_observer.png?raw=true)
 CSS에는 웹 폰트를 적용하지 않은 상태와 적용한 상태를 선언해 두고, 적용하지 않은 상태의 CSS가 먼저 적용되도록 한다.
 
 JavaScript에는 사용할 웹 폰트의 이름을 파라미터로 하는 FontFaceObserver 객체를 생성한다. 

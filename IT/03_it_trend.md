@@ -51,7 +51,7 @@
 
 **프라이버시보호기술 중 성능 및 안전성을 보장할 수 있는 기술**
 
-![](https://github.com/anotheranotherhoon/TIL/IT/img/data.png?raw=true)
+![](https://github.com/anotheranotherhoon/TIL/blob/master/IT/img/data.png?raw=true)
 
 
 최근 빅데이터 및 분석 플랫폼 확산 등으로 인해 데이터 활용 사례가 증가되면서 민감정보 활용을 위한 필수조건은 안전성을 강화하기 위한 기술이 부각되고 있다. 데이터 분석을 통한 가치창출을 위한 기술요소도 중요하지만 법적인 부분과 윤리적인 측면이 모두 고려될 수 있는 건전한 생태계 구축이 그 무엇보다 중요하다.

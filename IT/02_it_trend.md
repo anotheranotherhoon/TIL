@@ -66,7 +66,7 @@
 3. 식당은 손님드릐 예약 상태를 실시간으로 파악할 수 있다.
 4. 공원 전체의 상호작용은 빠르고 생산성을 높게 움직인다. 사진작가, 서비스 요원 및 '패스트 패스' 안내원은 종이 티켓을 받거나 결제할 필요 없이 밴드 스캔으로 식별 가능하다.
 
- ![](https://github.com/anotheranotherhoon/TIL/IT/img/magic_band.png?raw=true)
+ ![](https://github.com/anotheranotherhoon/TIL/blob/master/IT/img/magic_band.png?raw=true)
 
 이미지 출처 : https://brunch.co.kr/@fit/10
 
