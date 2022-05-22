@@ -57,7 +57,7 @@ console.log(typeof(JSON.stringify(data)))
 ```
 localStorage.setItem("data", JSON.stringify(data))
 ```
-![](https://github.com/anotheranotherhoon/TIL/blob/master/JavaScript/img/localStorage_setitem.png?raw=true)
+![](https://github.com/anotheranotherhoon/TIL/blob/master/JavaScript/img/localStorage_setItem.png?raw=true)
 
 * 로컬스토지에 Key에 keyName을 넣고 Value로 keyValue를 갖게된다.
 
@@ -72,7 +72,7 @@ const localStorageData = localStorage['data']
 console.log(localStorageData)
 console.log(typeof localStorageData)
 ```
-![](https://github.com/anotheranotherhoon/TIL/blob/master/JavaScript/img/json_parse.png?raw=true)
+![](https://github.com/anotheranotherhoon/TIL/blob/master/JavaScript/img/localStorage['data'].png?raw=true)
 
 * localStorage['data']를 통해 localStorage를 객체 처럼 key 값으로 호출하여 value에 접근할 수 있다.
 
