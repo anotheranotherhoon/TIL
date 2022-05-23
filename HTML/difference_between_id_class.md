@@ -8,7 +8,7 @@
 
 > HTML 문서 상에서, 브라우저는 앵커가 정의된 지점으로 스크롤 될 것이다.
 
-![](https://github.com/anotheranotherhoon/TIL/blob/master/HTML/img/difference_between_id_class.mov?raw=true)
+![](https://github.com/anotheranotherhoon/TIL/blob/master/HTML/img/difference_between_id_class.gif?raw=true)
 
 ```
 <a href="#one"></a>
@@ -32,8 +32,14 @@
 ## 2-1. class의 특징
 * 클래스의 명칭에 대한 요구사항을 제시하지는 않지만 개발자는 해당 요소의 표시 방식보다 *요소의 의미*와 목적을 설명하는 명칭을 사용하는 것이 좋다.
 
-여러가지 스타일링을 한꺼번에 적용해야 할 때는 클래스(class)를 사용하고 한가지만 적용하고 싶다면 아이디(id)를 사용하면된다.
+* 클래스의 특성을 가진 어떤 요소가 '기울임꼴'로 나타난다 하더라도, 클래스 이름은 '기울임꼴'을 설명하는 것이 아니라 요소를 설명하는 것이다.
 
-id는 고유하다.
-getElementById id를 여러번 쓰는거 시멘틱하지 않다. 웹 표준 xㅌ
-getElementsByClass
+
+## 정리
+* 여러가지 스타일링을 한꺼번에 적용해야 할 때는 클래스(class)를 사용하고 
+* 한가지만 적용하고 싶다면 아이디(id)를 사용하면된다.
+* id는 고유하다. 하지만 id를 중복하여 사용하여도 에러가 나지 않는다 다만 웹 표준에 어긋난다.
+* getElementById() // 단수형
+* getElementsByClassName() //복수형
+* 이름에서 알 수 있 듯이 getElementsByClassName() 는 주어진 클래스를 가진 *모든 자식* 엘리먼트의 실시간 HTMLCollection 을 반환합니다.
+* getElementsByClassName('class1 class2') 복수의 클래스를 포함하는 요소를 탐색할 수 있다.
