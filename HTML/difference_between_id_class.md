@@ -8,7 +8,6 @@
 
 > HTML 문서 상에서, 브라우저는 앵커가 정의된 지점으로 스크롤 될 것이다.
 
-![](https://github.com/anotheranotherhoon/TIL/blob/master/HTML/img/difference_between_id_class.gif?raw=true)
 
 ```
 <a href="#one"></a>
