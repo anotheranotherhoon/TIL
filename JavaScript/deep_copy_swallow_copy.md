@@ -35,7 +35,7 @@ spreadObj.age = 30;
 
 console.log(obj, objCopy);
 /*
-{name: "lee", age: 30} {name: "lee", age: 10}
+{name: "lee", age: 20} {name: "lee", age: 10}
 */
 
 ```
@@ -60,7 +60,7 @@ let obj = {
 };
 
 let assignObj = Object.assign({}, obj);
-assign.age = 30;
+assignObj.age = 30;
 
 console.log({obj}, {assignObj});
 /* 
@@ -144,7 +144,7 @@ console.log(obj, perfectCopy);
 };
 */
 ```
-* 깊이가 1 뿐만 아니라 더 깊을 경우에도 완벽하게 복사할 수 있따.
+* 깊이가 1 뿐만 아니라 더 깊을 경우에도 완벽하게 복사할 수 있다.
 
 ```
 let obj = {
@@ -180,6 +180,27 @@ console.log(perfectCopy);
 }
 */
 ```
+
+
+```
+let obj = {
+    name : "lee",
+    age : 20,
+    friend : ["kim", "park", "son"] ,
+    family : {
+        parents : ["lee", "ryu"]
+    }
+};
+
+lodash의 cloneDeep을 사용한 깊은 복사
+// npm install lodash 설치 한 후 , Node.js환경에서 실행
+const _ = require('lodash');
+//깊은 복사
+const c2 = _.clone(obj);
+console.log(c2 === obj); //false
+consoel.log(c2.name === o.name)//false
+```
+
 ## 요약
 * 가장 얕은 복사 : 할당
 * 중간 복사 : ...spread, Object.assign()
