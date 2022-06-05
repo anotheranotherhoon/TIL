@@ -33,9 +33,8 @@ UBI를 통해 보험사는 사고 위험이 적은 고객을 유치해 손해율
  
  현재 많이 언급되고 있는 인슈어테크와 밀접히 관련된 기술로는 사물인터넷에 기반한 텔레메틱스, 자율주행차, 웨어러블기기, 사용량기반 가격결정(UBI), 새로운 보안 거래 시스템을 지향하는 블록체인, 빅데이터와 결합한 인공지능 등이 있다.
  
- ![](https://github.com/anotheranotherhoon/TIL/IT/img/insur_tech.png?raw=true)
- 
- 
+ ![](https://github.com/anotheranotherhoon/TIL/blob/master/IT/img/insur_tech.png?raw=true)
+
 **정리**
 1. 행동인터넷은 사람들의 행동으로 연결된 인터넷을 의미한다.
 2.  운전습관연계보험(UBI; UsageBased Insurance)
