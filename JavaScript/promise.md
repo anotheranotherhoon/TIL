@@ -60,6 +60,6 @@ const promise = new Promise(resolve, reject) => {
 * catch 메서드는 한 개의 콜백 함수를 인수로 전달받는다. 
 * catch 메서드의 콜백 함수는 프로미스가 rejected 상태인 경우만 호출된다.
 
-## 프로미스의 정적 ㄹ메서드
+## 프로미스의 정적 메서드
 
 * Promise는 주로 생성자 함수로 사용되지만 
