@@ -11,7 +11,7 @@
 
 * 3. 나머지가 0일 경우 나눈 수가 최대 공약수다.
 
- ![](https://github.com/anotheranotherhoon/TIL/blob/master/Algorithm/img/euclide1.jpg?raw=true)
+ ![](https://github.com/anotheranotherhoon/TIL/blob/master/Algorithm/img/euclide.jpg?raw=true)
 
 
 ## 최소 공배수
@@ -70,7 +70,7 @@ function solution(n, m) {
 * 작은 수를 큰 수로 나눌 경우 몫은 0이 되고 나머지는 작은 수가 그대로 반환된다. 
 * 따라서 다음 순서에 나눈 수를 나머지로 나누는 과정에서 큰 수를 작은 수로 나누는 식이 되게 되있다. 
 
- ![]((https://github.com/anotheranotherhoon/TIL/blob/master/Algorithm/img/euclide2.jpeg?raw=true))
+ ![](https://github.com/anotheranotherhoon/TIL/blob/master/Algorithm/img/euclide2.jpeg?raw=true)
 
 ```
 function solution(n, m) {
