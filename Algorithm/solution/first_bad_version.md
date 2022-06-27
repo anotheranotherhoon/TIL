@@ -18,9 +18,9 @@ var solution = function(isBadVersion) {
 ```
 
 
-<img src="https://github.com/anotheranotherhoon/TIL/blob/master/Algorithm/img/first_bad_version1.jpg"  width="400" height="800"/>
+<img src="https://github.com/anotheranotherhoon/TIL/blob/master/Algorithm/img/first_bad_version1.jpg"  width="600" height="900"/>
 
-<img src="https://github.com/anotheranotherhoon/TIL/blob/master/Algorithm/img/first_bad_version2.jpg"  width="400" height="800"/>
+<img src="https://github.com/anotheranotherhoon/TIL/blob/master/Algorithm/img/first_bad_version2.jpg"  width="600" height="900"/>
 
 * 이분 탐색 완전히 배제해도 되는 부분이 어디인지 잘 생각해야한다.
 
