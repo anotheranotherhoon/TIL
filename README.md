@@ -5,7 +5,8 @@
 * reference를 명시하고, 원작자가 참고를 허용하는 자료만 사용한다.
 * 이미지 링크 작성양식
 ```
-![](https://github.com/anotheranotherhoon/TIL/blob/master/폴더명/img/이미지파일명.형식?raw=true)
+GoodNotes 가져올시 사이즈 기준
+<img src="https://github.com/anotheranotherhoon/TIL/blob/master/폴더명/img/이미지파일명.형식"  width="600" height="900"/>
 ```
 ## 분류
 ### JavaScript
