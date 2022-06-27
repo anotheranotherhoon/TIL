@@ -27,10 +27,10 @@ const bubbleSort = function (arr) {
 };
 ```
 * 최초에는 이렇게 풀었고 이게 일반적인 풀이이다. 하지만 Advance에서 수행시간을 단축할 수 있다.
-<img src="https://github.com/anotheranotherhoon/TIL/blob/master/Algorithm/img/bubble_sort_1.jpg"  width="400" height="800"/>
+<img src="https://github.com/anotheranotherhoon/TIL/blob/master/Algorithm/img/bubble_sort_1.jpg"  width="600" height="900"/>
 
 
-<img src="https://github.com/anotheranotherhoon/TIL/blob/master/Algorithm/img/bubble_sort_2.jpg"  width="400" height="800"/>
+<img src="https://github.com/anotheranotherhoon/TIL/blob/master/Algorithm/img/bubble_sort_2.jpg"  width="600" height="900"/>
 
 
 ## Advance 문제풀이
