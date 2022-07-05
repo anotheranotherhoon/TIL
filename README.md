@@ -8,6 +8,9 @@
 ### JavaScript
 * [모던 자바스크립트 DeepDive 스터디](https://github.com/JEONGHWANMIN/ModernJS_Study/tree/master/changhoon) 
 ### Algorithm
+* [유클리드 호제법](https://github.com/anotheranotherhoon/TIL/blob/master/Algorithm/euclidean_algorithm.md)
+### 자료구조
+* [Map](https://github.com/anotheranotherhoon/TIL/blob/master/Algorithm/Map.md)
 ### 운영체제
 
 
