@@ -101,7 +101,7 @@ _font-display 속성은 Internet Explorer 계열 브라우저를 제외한 브�
 ## 웹 폰트 최적화 방법 4 preload 옵션으로 먼저 로딩하기
 다음과 같이 <link>태그의 rel 속성에 preload 옵션을 사용하면 해당 리소스를 다른 리소스보다 빨리 로딩한다.
 주로 폰트 파일, 이미지 파일, 스크립트 파일, 비디오 파일 등 페이지에서 중요도가 높은 자원을 의도적으로 먼저 로딩할 때 preload 옵션을 사용한다.
-```
+```html
 <link rel="preload" href="./nanumGothic.woff2" as="font" type="font/woff2" crossorigin="anonymous"> 
 ```
 또한 preload 옵션으로 다운로드하는 리소스가 많아질수록 처음 렌더링 시간이 늦어진다는 문제가 있다. 그렇기 때문에 현재 페이지에서 중요도가 높고 먼저 렌더링되어야 하는 리소스만 preload 옵션으로 지정하는 것이 좋다.

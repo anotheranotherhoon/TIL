@@ -2,7 +2,7 @@
 * 거품 정렬 <sup>bubble sort</sup>은  전체 배열을 순회하면서 항목이 다른 항목 보다 큰 경우 두 항목을 교환한다.
 
 * swap은 정렬에 사용되는 일반적인 함수다. swap은 두 배열 항목 값들을 교환한다.
-```
+```js
 function swap(arr, index){
     const temp = arr[i]
     arr[i] = arr[i+1]
