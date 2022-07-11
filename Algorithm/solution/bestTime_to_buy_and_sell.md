@@ -13,7 +13,7 @@
 > 자신이 구매한 날 이후의 날짜에 그 날짜에 해당하는 주식의 가격으로 팔 수 있으며 그 값을 최대가 되게 하고 최대가되는 그 값을 반환하라.
 
 ## 처음 작성한 답안 하지만 시간 초과에 걸리고 만다.
-```
+```js
 var maxProfit = function(prices) {
     const dy = Array.from({length:prices.length}, ()=>0)
     for(let i = 0 ; i < prices.length; i++){
@@ -37,7 +37,7 @@ var maxProfit = function(prices) {
 
 ## DP를 이용한 풀이
 
-```
+```js
 var maxProfit = function(prices) {
     const dy = Array.from({length:prices.length}, ()=>0)
 

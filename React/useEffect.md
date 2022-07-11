@@ -1,5 +1,6 @@
 # useEffect
->React는 Side Effect를 다루기 위한 Hook인 Effect Hook을 제공합니다.
+> * React는 Side Effect를 다루기 위한 Hook인 Effect Hook을 제공합니다.
+> * Hook은 React 16.8에 새로 추가된 기능이다. Hook
 ## useEffect 사용법
 
 ## useEffect의 첫 번째 인자

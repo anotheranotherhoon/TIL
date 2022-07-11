@@ -1,4 +1,4 @@
-```
+```js
 const mergeTwoLists = function (list1, list2) {
   const arr = [];
   while (list1.length !== 0 && list2.length !== 0) {

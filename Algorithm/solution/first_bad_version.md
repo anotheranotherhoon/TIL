@@ -1,6 +1,6 @@
 # First Bad Version [문제](https://leetcode.com/problems/first-bad-version/)
 > binary search
-```
+```js
 var solution = function(isBadVersion) {
     return function(n) {
         let s = 1, e = n

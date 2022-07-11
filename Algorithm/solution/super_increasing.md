@@ -14,7 +14,7 @@
 
 ## 첫 번째 풀이
 
-```
+```js
 function superIncreasing(arr) {
   let sum = arr[0]
   for(let i = 1; i<arr.length; i++){

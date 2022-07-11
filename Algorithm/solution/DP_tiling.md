@@ -14,7 +14,7 @@
 
 <img src="https://github.com/anotheranotherhoon/TIL/blob/master/Algorithm/img/DP_tiling.jpg"  width="600" height="900"/>
 
-```
+```js
 let tiling = function (n) {
   const dy = [0, 1, 2];
   if (n <= 2) return dy[n];

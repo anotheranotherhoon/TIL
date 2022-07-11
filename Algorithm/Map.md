@@ -21,7 +21,7 @@
 
 ## Map 객체의 생성
 * Map 객체는 Map 생성자 함수로 생성한다. Map 생성자 함수에 인수를 전달하지 않으면 빈 Map 객체가 생성된다.
-```
+```js
 const map = new Map();
 console.log(map); Map(0)
 ```
@@ -31,7 +31,7 @@ console.log(map); Map(0)
 
 ## 요소 개수 확인 size
 * Map 객체의 요소 개수를 확인할 때는 Map.prototype.size 프로퍼티를 사용한다.
-```
+```js
 const size = new Map([['key1', 'value1'],['key2', 'value2']])
 map.size = 2
 ```
@@ -44,7 +44,7 @@ map.size = 2
 
 * set 메서드는 새로운 요소가 추가된 Map 객체를 반환한다. 따라서 set 메서드를 호출한 후에 set메서드를 연속적으로 호출할 수 있다. 
 
-```
+```js
 const map = new Map();
 
 map.set('key1','value1').set('key2', 'value2')
@@ -90,7 +90,7 @@ console.log(map) // Map(2){'key1' => 'value1', 'key2' => 'value2'}
     * 두 번째 인수 : 현재 순화 중인 요소키
     * 세 번쨰 인수 : 현재 순회 중인 Map 객체 자체
 
-```
+```js
 const lee = { name : 'Lee'};
 const kim = { name : 'Kim'};
 

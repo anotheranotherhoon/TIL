@@ -16,7 +16,7 @@
 ## 최소 공배수
 * 두 수의 최대소 공배수는 두 수의 곱을 최대공약수로 나눈 값이다.  
 
-```
+```js
 function solution(n, m) {
     // 최대공약수 구하기
     // 1. n과 m을 비교하여 큰 값과 작은 값을 찾아내 big, small 변수에 할당한다.
@@ -46,7 +46,7 @@ function solution(n, m) {
 }
 ```
 * 처음에는 큰 수를 작은 수로 꼭 나눠야한다고 생각하여 대소비교를 해주었다.
-```
+```js
 function solution(n, m) {
         let big = Math.max(n, m)
         let small = Math.min(n,m)
@@ -70,7 +70,8 @@ function solution(n, m) {
 * 따라서 다음 순서에 나눈 수를 나머지로 나누는 과정에서 큰 수를 작은 수로 나누는 식이 되게 되있다. 
 
 <img src="https://github.com/anotheranotherhoon/TIL/blob/master/Algorithm/img/euclide2.jpeg"  width="600" height="900"/>
-```
+
+```js
 function solution(n, m) {
     function gcd(n, m){
         if(n % m === 0){

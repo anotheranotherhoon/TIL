@@ -11,7 +11,7 @@
 
 ## 문제 풀이 
 > bubbleSort([1, 2, 43, 100, 100, 21])
-```
+```js
 const bubbleSort = function (arr) {
   for(let i = 0; i<arr.length; i++){
     for(let j = 0; j<arr.length-i-1; j++){
@@ -34,7 +34,7 @@ const bubbleSort = function (arr) {
 
 
 ## Advance 문제풀이
-```
+```js
 const bubbleSort = function (arr) {
   // TODO: 여기에 코드를 작성합니다.
   for(let i = 0; i<arr.length; i++){
