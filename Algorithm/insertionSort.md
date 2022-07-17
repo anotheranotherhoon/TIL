@@ -44,4 +44,3 @@ const insertionSort = function (arr) {
   * arr[j]가 key 보다 작거나 같을 경우이다. 
   * 즉, arr[j]보다 key가 크거나 같다는 의미이다.
   * 따라서 arr[j+1]을 key로 할당해 준다.
-  * arr[j]다음 arr[j+1]이 오게 되므로 정렬이 이루어진다.
